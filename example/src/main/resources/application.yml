@@ -1,0 +1,15 @@
+nls:
+  deploy:
+    env: daily
+    service: domo
+  redis:
+    host: rm-tatuds.redis.rdstest.tbsite.net
+    port: 6379
+    pw: kvStore17
+  dhyana:
+    port: 12309
+    minimumNodes: 2
+    clusterName: DHYANA1
+    nodeName: N9
+server:
+  port: ${port:12209}
