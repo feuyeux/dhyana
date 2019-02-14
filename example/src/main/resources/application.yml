@@ -1,11 +1,8 @@
 nls:
-  deploy:
-    env: daily
-    service: domo
   redis:
-    host: rm-tatuds.redis.rdstest.tbsite.net
+    host: localhost
     port: 6379
-    pw: kvStore17
+    pw: 20190208
   dhyana:
     port: 12309
     minimumNodes: 2
